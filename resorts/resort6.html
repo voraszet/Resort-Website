@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+		<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> Central America </h1>
+					<h3> Costa Rica </h3>
+				</header>
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image61.jpg">
+		            	<img src="resort-images/image61.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image62.jpg">
+		            	<img src="resort-images/image62.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image63.jpg">
+		            	<img src="resort-images/image63.jpeg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image64.jpg">
+		            	<img src="resort-images/image64.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image65.jpg">
+		            	<img src="resort-images/image65.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image66.jpg">
+		            	<img src="resort-images/image66.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image67.jpg">
+		            	<img src="resort-images/image67.jpg" />
+		        	</li>
+				</ul>
+			</article>
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								Central America
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Costa Rica
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£1600
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>							
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								Costa Rica is a small and beautiful country in Central America which, despite the burgeoning interest in tourism it has seen, continues to strive to respect its environment.
+							</h5>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>		
+								<li>Tennis</li>								
+								<li>Flying trapeze</li>
+								<li>Spa</li>
+								<li>Golf</li>
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort6">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    Looking for an all-inclusive Costa Rica resort near the Gulf of Papagayo? Occidental Hotels & Resorts offers the best beachfront properties on the North Pacific Coast of Costa Rica. It’s a magical place blessed with unique natural beauty, awe inspiring cliffs, and breath taking, unspoiled warm-water beaches which, together with the local cuisine, makes it one of the leading travel destinations in the country.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Costa Rica </h3>
+					  	<img src="acco6.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					   The Springs Resort and Spa overlooks the Arenal river valley and offers direct views of north side of the majestic Arenal Volcano. The Springs is surrounded by lush tropical gardens, cascading waterfalls and panoramic views verdant mountains and valleys.
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Costa Rica&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="http://premiumlinkgenerator.com">premium link generator for 2016</a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>

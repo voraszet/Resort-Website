@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+	<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> Europe </h1>
+					<h3> Lithuania </h3>
+				</header>
+			
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->	
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image31.jpg">
+		            	<img src="resort-images/image31.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image32.jpg">
+		            	<img src="resort-images/image32.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image33.jpg">
+		            	<img src="resort-images/image33.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image34.jpg">
+		            	<img src="resort-images/image34.jpeg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image35.jpg">
+		            	<img src="resort-images/image35.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image36.jpg">
+		            	<img src="resort-images/image36.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image37.jpg">
+		            	<img src="resort-images/image37.jpg" />
+		        	</li>
+				</ul>
+			</article>
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								Europe
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Lithuania
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£1350
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								Loved by many and hated by many others Palanga leaves few Lithuanians undecided. This is the country’s largest seaside resort town and its nickname “Summer capital” describes it well enough.
+							</h5>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>		
+								<li>Tennis</li>								
+								<li>Kids club</li>
+								<li>Spa</li>
+								<li>Horse riding</li>
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort3">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    Basanavičiaus street is indeed a love-or-hate affair but Palanga is far more than that. Its long beach tends to be crowded in summer weekends, but you can always search for a place outside city center. Palanga beach is unique in that there is a range of dunes beside it. These sand dunes are an ideal place for sunbathing in cooler days as there you can get all of the sun and none of the wind. For nudists there are two gender-segregated beaches north of town center. These pre-date Western naturism by far: in 1920s Western diplomats used to be horrified by the naked swimmers here.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Lithuania </h3>
+					  	<img src="acco3.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					    Arunes Apartments are located in the centre of Palanga, only 250 metres from the Baltic Sea. They all feature satellite TV and fully equipped kitchens to cook in.
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Palanga&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="googlemapsgenerator.com/">Google maps genhttps://ww.premiumlinkgenerator.com/erator</a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+		<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> North America </h1>
+					<h3> Santa Barbara </h3>
+				</header>			
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image51.jpg">
+		            	<img src="resort-images/image51.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image52.jpg">
+		            	<img src="resort-images/image52.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image53.jpg">
+		            	<img src="resort-images/image53.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image54.jpg">
+		            	<img src="resort-images/image54.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image55.jpg">
+		            	<img src="resort-images/image55.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image56.jpg">
+		            	<img src="resort-images/image56.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image57.jpg">
+		            	<img src="resort-images/image57.jpg" />
+		        	</li>
+				</ul>
+			</article>
+
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								North America
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Santa Barbara
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£1039
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>						
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								Indulge, rejuvenate, and relax. Treat yourself to a luxurious stay in one of our fabulous hotels, resorts or spas while you're in Santa Barbara.
+							</h5>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>		
+								<li>Tennis</li>								
+								<li>Flying trapeze</li>
+								<li>Spa</li>
+								<li>Kitesurf</li>
+								<li>Sailing</li>
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort5">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>		
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    Santa Barbara's world-class resorts and spas have been showcased in prominent travel magazines, columns, and newspapers. Many of these sanctuaries combine stunning coastal views, private bungalows, immediate beach access, endless activity opportunities, and hospitable and knowledgeable staff, ready to help you make the most of your Santa Barbara experience--whether that be days of adventure or a retreat to the peace and quiet of this coveted coastal destination.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Santa Barbara </h3>
+					  	<img src="acco5.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					    The premises are across the roadway from the water, and the view of the harbor was great. You could walk if you wanted to downtown and enjoy restaurants and shopping.
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Santa Barbara&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="googlemapsgenerator.com/">Google maps genhttps://ww.premiumlinkgenerator.com/erator</a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>				
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>

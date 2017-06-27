@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="css/styles.css">
+ <link rel="stylesheet" href="css/jquery-ui.css">
+ <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+ <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+</head>
+
+<body>
+<!--CONTAINER FOR THE NAVIGATION AND IMAGE -->
+<div class="container-full">
+		<!-- CONTAINER FOR THE NAVIGATION AND IMAGE, USED FOR HAVING THE MAIN IMAGE WITH ELEMENTS ON IT-->
+		<div id="main-outer">
+   			 <img src="main-img.jpg" style="height:auto; width:100%; max-width:100%;" id="image">
+    			<div id="main-inner">
+    					<!-- HEADER CLASS WITH THE HEADING "BOOK YOUR HOLIDAYS!" -->    				
+	    				 <header>
+	    				 			<h1> Book your holidays! </h1>	    			
+	    				 </header>
+
+	    				 <!-- NAVIGATION FOR FILTERING THE RESULTS OF RESORTS -->
+			    		 <nav> 
+			    		 	<fieldset>
+			  			 		<div class="input">
+			  			 				<!-- BOOTSTRAP GLYPHICON FOR DESTINATION -->
+			  			 				<span class="glyphicon glyphicon-map-marker" style="font-size:20px; padding:10px;">Destination</span><br>
+			  			 				<!-- DESTINATION VALUES FOR RESORTS -->
+			  			 				<select name="destination" id="destination" >
+			  			 					<option value="" selected >Any</option>
+			  			 					<option value="Carribean">Carribean</option>
+			  			 					<option value="Indian Ocean">Indian Ocean</option>
+			  			 					<option value="Europe">Europe</option>
+			  			 					<option value="Africa">Africa</option>
+			  			 					<option value="North America">North America</option>
+			  			 					<option value="Central America">Central America</option>
+			  			 					<option value="The Alps">The Alps</option>
+			  			 				</select>			   				 			
+		   				 		</div>
+		   				 			<!-- RESORT ACTIVITY CHECKBOXES WITH VALUES -->
+									<span style="float:left;">	   				 			
+										<table style="margin: 10px; margin-left:50px;">
+											<tr>
+												<th>
+													<span class="glyphicon glyphicon-ok-circle" style="font-size:20px;">Activities</span>
+												</th>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="tennis" value="tennis" />
+													<label for="tennis"> Tennis </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="golf" value="golf" />
+													<label for="golf"> Golf </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="water skiing" value="water skiing" />
+													<label for="reading"> Water skiing </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="scuba diving" value="scuba diving" />
+													<label for="reading"> Scuba diving </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="kitesurf" value="kitesurf" />
+													<label for="reading"> Kitesurf </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="spa" value="spa" />
+													<label for="reading"> Spa </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="sailing" value="sailing" />
+													<label for="reading"> Sailing </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="kids club" value="kids club" />
+													<label for="reading"> Kids club </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="flying trapeze" value="flying trapeze" />
+													<label for="reading"> Flying trapeze </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="hiking" value="hiking" />
+													<label for="reading"> Hiking </label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="checkbox" name="activity" id="horse riding" value="horse riding" />
+													<label for="reading"> Horse riding </label>
+												</td>
+											</tr>	
+										</table>
+									</span>
+
+									<!-- COMFORT LEVEL WITH VALUES -->
+									<span style="float:left;">
+										<table style="margin:10px; margin-left:20px;">
+											<tr>
+												<th>
+													<span class="glyphicon glyphicon-star" style="font-size:20px;">Comfort</span>
+												</th>
+											</tr>
+											<tr>
+												<td>
+													<input type="radio" id="3" name="comfortLevel" value="3"/>
+													
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="radio" id="4" name="comfortLevel" value="4"/>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="radio" id="5" name="comfortLevel" value="5"/>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+													<span class="glyphicon glyphicon-star" style="font-size:12px;"></span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<input type="radio" id="Any" name="comfortLevel" value="Any" checked/>
+													<label for="Any"> Any </label>    								
+												</td>
+											</tr>
+										</table>
+									</span>
+								    <!-- DATE PICKER -->
+								    <table style="margin:15px; margin-right:50px; float:right;">
+								    	<tr>
+								    		<td style="text-align:center;">
+												<span class="glyphicon glyphicon-calendar" style="font-size:75px; color:#FFF;"></span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+									    		<input type="text" id="datepickerFrom" name="dateFrom" placeholder="From">
+									    	</td>
+									    </tr>
+									    <tr>
+									    	<td>
+									    		<input type="text" id="datepickerTo" name="dateTo" placeholder="To">
+									    	</td>
+									    </tr>
+									</table>
+								<!-- PRICE VALUES FOR RESORTS-->
+								<table style="float:right; margin:10px;">
+									<tr>
+										<td>
+					   				 		<label for="amount">Price range:</label>
+											<input type="text" id="amount" readonly style="border:solid 2px #b3cce5; font-weight:bold; font-family:Arial;" />
+											<div id="slider-range"></div>
+										</td>
+									</tr>									
+								</table>
+								
+		   				 	</fieldset>
+		   				 <!-- SEARCH RESORTS AND VIEW FAVOURITES BUTTONS -->
+		   				 <div style="text-align:center;">	
+		   				 	<button id="search" class="btn btn-info" style="width:200px;"> Search </button>
+		   				 	<button id="favourites" class="btn btn-success" style="width:130px;"> View Favourites </button>
+	    				 </div>
+	    				 </nav>
+
+    			</div>
+		</div>
+</div>
+<!-- THE BOTTOM CONTAINER FOR RESORT RESULTS -->
+<div class="bottom-container">
+		<div class="result-container">
+			<div class="resorts">
+			<!-- THE HEADING OF RESORT RESULTS -->
+				<h3>	    		
+	 				Resorts
+	 			</h3>
+	 			<!-- OUTPUTING THE RESULT OF RESORTS WITH IMAGE, LINK TO RESORT PAGE & RESORT PRICE -->
+				<div id="resorts-result">
+					<span class="resorts-image"></span>
+					<span id="resorts-link"></span>	
+					<span class="resorts-price"></span>																
+				</div>
+	  		</div>
+		</div>
+		<!-- THE CLASS FOR VIEWING THE SAVED RESORTS TO FAVOURITES -->
+		<div class="favourites">
+			<h3> Favourites</h3>
+				<!-- THE CONTAINER FOR OUTPUTING THE FAVOURITES -->
+				<div id="favourites-container">
+
+				</div>			
+		</div>
+		<!-- ALIGNING THE "CLEAR" BUTTON TO CENTER AND INPUTING THE "CLEAR" BUTTON -->
+		<div style="text-align:center; margin-top:20px; padding-bottom:20px;">
+				<button id="clear" class="btn btn-danger" style="width:130px;"> Clear Favourites</button>
+		</div>
+</div>	
+		
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="resorts/js/resortscript.js"></script>
+<script src="js/resort-json.js"></script>
+
+</body>
+</html>

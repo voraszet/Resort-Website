@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+	<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> Indian Ocean </h1>
+					<h3> Mauritius </h3>
+				</header>
+			
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image1.jpg">
+		            	<img src="resort-images/image1.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image2.jpg">
+		            	<img src="resort-images/image2.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image3.jpg">
+		            	<img src="resort-images/image3.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image4.jpg">
+		            	<img src="resort-images/image4.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image5.jpg">
+		            	<img src="resort-images/image5.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image6.jpg">
+		            	<img src="resort-images/image6.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image7.jpg">
+		            	<img src="resort-images/image7.jpg" />
+		        	</li>
+				</ul>
+			</article>
+
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								Indian Ocean
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Mauritius
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£2062
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								Beautifully located in one of the last remote creeks on the island, La Plantation d'Albion Club Med welcomes the most demanding of guests into a world of supreme refinement.
+							</h5>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>
+								<li>Kids club</li>
+								<li>Golf</li>
+								<li>Scuba diving</li>
+								<li>Flying trapeze</li>
+								<li>Tennis</li>								
+								<li>Sailing</li>
+								<li>Spa</li>
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort2">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>
+
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    In a remote beauty spot, savour the luxury of Mauritian lifestyle. <br> The idyllic natural setting is enhanced by the sublime decor designed by Marc Hertrich and Nicolas Adnet, and the Resort's top-end comfort is perfectly reflected in its beautifully spacious rooms. The exceptional CINQ MONDES Spa* and luxurious overflow pool add an ideally Zen touch.<br> The Resort is entirely devoted to fulfilling its guests' desires and offers discreet, personal service in its swimming areas, bars and 'Table Gourmet' restaurants.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Mauritius </h3>
+					  	<img src="acco1.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					    A lovely town house tucked away in the stunning surroundings of Mauritius.<br> 
+						Large and comfortable house that is clean & well maintained.
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Mauritius&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="https://www.premiumlinkgenerator.com/">premium link generator </a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>

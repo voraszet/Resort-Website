@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+		<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> The Alps </h1>
+					<h3> Switzerland </h3>
+				</header>
+			
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->				
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image24.jpg">
+		            	<img src="resort-images/image24.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image22.jpg">
+		            	<img src="resort-images/image22.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image23.jpg">
+		            	<img src="resort-images/image23.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image21.jpg">
+		            	<img src="resort-images/image21.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image25.jpg">
+		            	<img src="resort-images/image25.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image26.jpg">
+		            	<img src="resort-images/image26.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image27.jpg">
+		            	<img src="resort-images/image27.jpg" />
+		        	</li>
+				</ul>
+			</article>
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								The Alps
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Switzerland
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£1479
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>							
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								The Scandinavians have arrived and development is here; six hotels, 490 apartments, and 25 villas were built in 2013. But Andermatt retains its homegrown-alpine-village vibe, with a booming freeride scene.
+							</h5>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>		
+								<li>Tennis</li>								
+								<li>Spa</li>
+								<li>Hiking</li>
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort7">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    Switzerland at the convergence of four mountain passes, Andermatt gets hammered by about 40 feet of white stuff a year. Storms pummel the 9,721-foot Gemsstock, one of Andermatt’s three ski hills, covering its north-facing slopes. From the top of the Gemsstock, hit the Giraffe, a 5,000-foot off-piste run that funnels into a series of pristine bowls and finishes off with a steep couloir.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Switzerland </h3>
+					  	<img src="acco7.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					    The premises are across the roadway from the water, and the view of the harbor was great. You could walk if you wanted to downtown and enjoy restaurants and shopping.
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Switzerland&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="googlemapsgenerator.com/">Google maps genhttps://ww.premiumlinkgenerator.com/erator</a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>					
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>

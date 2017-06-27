@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+		<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> Africa </h1>
+					<h3> Ballito </h3>
+				</header>
+			
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->	
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image41.jpg">
+		            	<img src="resort-images/image41.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image42.jpg">
+		            	<img src="resort-images/image42.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image43.jpg">
+		            	<img src="resort-images/image43.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image48.jpg">
+		            	<img src="resort-images/image48.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image4.jpg">
+		            	<img src="resort-images/image4.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image5.jpg">
+		            	<img src="resort-images/image5.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image7.jpg">
+		            	<img src="resort-images/image7.jpg" />
+		        	</li>
+				</ul>
+			</article>
+
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								Africa
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Ballito
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£2049
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								In the heart of the Dolphin Coast, Ballito lies nestled between the fields of KwaZulu Natals famous Green Gold and is flanked to the east by golden beaches and the warm waters of the Africa.
+							</h5>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>		
+								<li>Tennis</li>								
+								<li>Kids club</li>
+								<li>Spa</li>
+								<li>Horse riding</li>
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort4">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>		
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    The waters off Ballito's Beach are the playground of the bottlenose dolphins, which frolic in the waters close to shore and are visible all year round. The dolphins favour this stretch of coastline because of it's relatively clear and shallow waters, allowing dolphins to swim close to shore in order to feed. Surveys of these waters suggest that they are frequented by a school of about 200 dolphins, which break up into smaller groups.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Ballito </h3>
+					  	<img src="acco4.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					    This lovely first floor beachfront apartment has full panoramic breaker sea views. Situated on the site of the old Chaka's Rock Hotel, it overlooks the Chaka's Rock tidal sea pool. 
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Ballito&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="https://ultimatewebtraffic.com/">buy websit traffic Ultimatewebtraffic</a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>

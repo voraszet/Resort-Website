@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="css/resort-style.css">
+	 <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	 <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+
+	 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+	 <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<div id="main-outer">
+	<div id="main-inner">
+		<!-- THE MAIN CONTAINER CLASS -->
+		<div class="main-container">
+				<!-- HEADER WITH DESTINATION AND LOCATION -->
+				<header>
+					<h1> Carribean </h1>
+					<h3> Martinique </h3>
+				</header>			
+			<!-- LIGHT SLIDER IMAGE PLUGIN WITH MAIN IMAGE AND THUMBS ATTACHED -->	
+			<article>
+				<ul id="lightSlider">
+					<li data-thumb="resort-images/thumb/image4.jpg">
+		            	<img src="resort-images/image4.jpg" />
+		        	</li>        	
+		        	<li data-thumb="resort-images/thumb/image2.jpg">
+		            	<img src="resort-images/image2.jpg" />
+		        	</li>    	
+		        	<li data-thumb="resort-images/thumb/image3.jpg">
+		            	<img src="resort-images/image3.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image1.jpg">
+		            	<img src="resort-images/image1.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image5.jpg">
+		            	<img src="resort-images/image5.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image6.jpg">
+		            	<img src="resort-images/image6.jpg" />
+		        	</li>
+		        	<li data-thumb="resort-images/thumb/image7.jpg">
+		            	<img src="resort-images/image7.jpg" />
+		        	</li>
+				</ul>
+			</article>
+
+			<!-- TABLE WITH ALL THE NECCESSARY INFORMATION, EXAMPLE: DESTINATION, LOCATION, PRICE, COMFORT LEVEL, SHORT DESCRIPTION AND ACTIVITIES -->
+			<aside>
+				<table>
+					<tr>
+						<td>
+							<h3>
+								Destination			
+							</h3>
+							<h4>
+								Carribean
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Location
+							</h3>
+							<h4>
+								Martinique
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Price
+							</h3>
+							<h4>
+								£1254
+							</h4>
+						</td>
+						<td>
+							<h3>
+								Comfort
+							</h3>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+							<span class="glyphicon glyphicon-star" style="font-size:20px;"></span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Short description
+							</h3>
+							<h5>
+								The resort of Les Boucaniers is located on the laid-back beach-covered south coast of the island, and is perfectly placed for Martinique holidays that are both relaxing and awe-inspiring.
+							</h5>									
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<h3>
+								Activities
+							</h3>
+							<ul>
+								<li>Water skiing</li>								
+								<li>Scuba diving</li>		
+								<li>Tennis</li>								
+								<li>Kitesurf</li>
+								<li>Spa</li>
+							</ul>							
+						</td>
+					</tr>
+				</table>										
+			</aside>
+			<!-- "SAVE TO FAVOURITES" BUTTON ALIGNED TO CENTER -->
+			<span style="text-align:center;">
+				<p id="resort1">
+					<button id="save" class="btn btn-success" style="width:150px; margin:30px; margin-top:5px;"> Save Resort </button>
+				</p>
+			</span>
+			<aside>
+				<!-- JQUERY UI TABS WITH LONG-DESCRIPTION, ACCOMMODATION AND GOOGLE MAP -->
+				<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Long description</a></li>
+					    <li><a href="#tabs-2">Accommodation</a></li>
+					    <li><a href="#tabs-3">Map</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    A divers' paradise in the Baie du Marin, a legendary spot.<br>Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You'll be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.
+					  </div>
+					  <div id="tabs-2">
+					  	<h3> Martinique </h3>
+					  	<img src="acco2.jpg" style="width:450px; max-width:450px;">
+					  	<h4> Accommodation description </h4>
+					    moderate to luxury accommodations. Often family run establishments with Victorian or Georgian architecture, and well-appointed rooms. Many have restaurants with fine dining. Typically in a country setting with outdoor activities nearby.
+					  </div>
+					  <div id="tabs-3">
+					 	<h3> Google map </h3>
+					    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="642" height="443" src="https://maps.google.com/maps?hl=en&q=Martinique&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
+									embedgooglemaps.com
+							</a></small></div><div><small><a href="https://ultimatewebtraffic.com/">buy websit traffic Ultimatewebtraffic</a></small></div></iframe>
+					  </div>
+				</div>
+			</aside>
+
+			<!-- FOOTER WHERE THE BUTTON TO MAIN PAGE IS LOCATED -->
+			<footer>									
+					<nav id="main-page">
+						 <a href="../index.html"> MAIN PAGE </a>						
+					</nav>
+			</footer>
+		<!-- MAIN CONTAINER END -->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/resort.js"></script>
+<script src="js/resortscript.js"></script>
+
+
+</body>
+</html>
